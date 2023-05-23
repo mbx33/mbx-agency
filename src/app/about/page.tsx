@@ -1,17 +1,14 @@
 'use client';
+import React from 'react';
 import styled from 'styled-components';
 
-export default function Home() {
-	return (
-		<main>
-			<Section>
-				<h1>MBX Web Agency</h1>
-			</Section>
-		</main>
-	);
-}
+const AboutPage = () => {
+	return <Main>AboutPage</Main>;
+};
 
-const Section = styled.section`
+export default AboutPage;
+
+const Main = styled.main`
 	background-color: #6376ca;
 	color: #fff;
 	height: 100vh;
