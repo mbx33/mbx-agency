@@ -1,18 +1,21 @@
-'use client';
 import React from 'react';
 import styled from 'styled-components';
 
-const AboutPage = () => {
-	return <Main>AboutPage</Main>;
+const ContactForm = () => {
+	return (
+		<Form>
+			<div>ContactForm</div>
+		</Form>
+	);
 };
 
-export default AboutPage;
+export default ContactForm;
 
-const Main = styled.main`
-	background-color: #6376ca;
+const Form = styled.form`
+	background-color: #636a87;
 	color: #fff;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
